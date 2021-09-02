@@ -1,0 +1,83 @@
+Script started on Wed 17 Mar 2021 09:16:12 PM HST
+]0;hovictor@uhx02:~/project1[?1034huhx02:/home/h/hovictor/project1% ./project1
+Welcome user
+Loading stored consumer records
+Successfully loaded stored records
+
+Please select a menu option by typing your selection
+add : Add a new record in the database.
+printall : Print all records in the database.
+find : Find record(s) within the database
+delete : Delete existing record(s) from the database.
+quit : Quit the program.
+add
+add was selected. Please input account number, name, and address
+Please input an account number
+12345
+Please enter a name for the account
+temp
+Please enter the address of the account holder
+When you are finished entering the address, input a '$' symbol
+123 temp st.
+temp T      Temp TP 12345  $
+Success. A new record has been added.
+Account number - 12345
+Name - temp
+Address - 123 temp st.
+Temp TP 12345
+
+Please select a menu option by typing your selection
+add : Add a new record in the database.
+printall : Print all records in the database.
+find : Find record(s) within the database
+delete : Delete existing record(s) from the database.
+quit : Quit the program.
+printall
+printall was selected. Printing all records
+
+Account Number : 12345
+Account Name : temp
+Address : 123 temp st.
+Temp TP 12345
+
+Please select a menu option by typing your selection
+add : Add a new record in the database.
+printall : Print all records in the database.
+find : Find record(s) within the database
+delete : Delete existing record(s) from the database.
+quit : Quit the program.
+find
+find was selected. Please input account number to search for.
+Please input an account number
+12345
+Searching for 12345
+
+Found account with number 12345
+Account name : temp
+Address : 123 temp st.
+Temp TP 12345
+
+Please select a menu option by typing your selection
+add : Add a new record in the database.
+printall : Print all records in the database.
+find : Find record(s) within the database
+delete : Delete existing record(s) from the database.
+quit : Quit the program.
+delete
+delete was selected. Please input number of account to delete
+Please input an account number
+12345
+Success. Deleted account with number 12345
+
+Please select a menu option by typing your selection
+add : Add a new record in the database.
+printall : Print all records in the database.
+find : Find record(s) within the database
+delete : Delete existing record(s) from the database.
+quit : Quit the program.
+quit
+quit was selected. Quitting the program.
+]0;hovictor@uhx02:~/project1uhx02:/home/h/hovictor/project1% exit
+exit
+
+Script done on Wed 17 Mar 2021 09:16:51 PM HST

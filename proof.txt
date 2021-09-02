@@ -1,0 +1,24 @@
+Script started on Wed 17 Mar 2021 09:11:51 PM HST
+]0;hovictor@uhx02:~/project1[?1034huhx02:/home/h/hovictor/project1% touch *.c
+]0;hovictor@uhx02:~/project1uhx02:/home/h/hovictor/project1% make
+gcc -ansi -pedantic-errors -Wall -c user_interface.c
+gcc -ansi -pedantic-errors -Wall -c database.c
+gcc -o project1 user_interface.o database.o
+]0;hovictor@uhx02:~/project1uhx02:/home/h/hovictor/project1% touch *.h
+]0;hovictor@uhx02:~/project1uhx02:/home/h/hovictor/project1% make
+gcc -ansi -pedantic-errors -Wall -c user_interface.c
+gcc -ansi -pedantic-errors -Wall -c database.c
+gcc -o project1 user_interface.o database.o
+]0;hovictor@uhx02:~/project1uhx02:/home/h/hovictor/project1% touch datbase.c[K[K[K[K[K[Kabase.c
+]0;hovictor@uhx02:~/project1uhx02:/home/h/hovictor/project1% make
+gcc -ansi -pedantic-errors -Wall -c database.c
+gcc -o project1 user_interface.o database.o
+]0;hovictor@uhx02:~/project1uhx02:/home/h/hovictor/project1% touch *.o
+]0;hovictor@uhx02:~/project1uhx02:/home/h/hovictor/project1% make
+gcc -o project1 user_interface.o database.o
+]0;hovictor@uhx02:~/project1uhx02:/home/h/hovictor/project1% make
+make: `project1' is up to date.
+]0;hovictor@uhx02:~/project1uhx02:/home/h/hovictor/project1% exit
+exit
+
+Script done on Wed 17 Mar 2021 09:12:28 PM HST
